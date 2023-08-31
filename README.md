@@ -13,6 +13,8 @@ As a computer scientist I always wanted to program a computer game, so I decided
 
 ![](./screenshots.png)
 
+**Note:** I started with a tutorial using the [sunny-land asset pack](https://ansimuz.itch.io/sunny-land-pixel-game-art) by [ansimuz](https://itch.io/profile/ansimuz). The title screen is strongly inspired by it ;)
+
 ## Gameplay
 
 *Sis World* is a 2D [pixel art](https://en.wikipedia.org/wiki/Pixel_art), [side-scrolling](https://en.wikipedia.org/wiki/Side-scrolling_video_game) video game. The kind of game I loved to play as a kid in the 80s and early 90s and that I still love (check out [Huntdown](https://huntdown.com/), one of the best of its kind).
