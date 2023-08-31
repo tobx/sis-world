@@ -1,0 +1,4072 @@
+{
+	"textures": [
+		{
+			"image": "atlas.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1730,
+				"h": 958
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "sprites/title/birds",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1728,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1728,
+						"h": 192
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1728,
+						"h": 192
+					}
+				},
+				{
+					"filename": "sprites/lobby/receptionists",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1353,
+						"h": 14
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1353,
+						"h": 14
+					},
+					"frame": {
+						"x": 1,
+						"y": 195,
+						"w": 1353,
+						"h": 14
+					}
+				},
+				{
+					"filename": "sprites/global/player-backpack-boots",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1254,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1254,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 211,
+						"w": 1254,
+						"h": 32
+					}
+				},
+				{
+					"filename": "sprites/global/player-backpack",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1254,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1254,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 245,
+						"w": 1254,
+						"h": 32
+					}
+				},
+				{
+					"filename": "sprites/global/player-boots",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1254,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1254,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 279,
+						"w": 1254,
+						"h": 32
+					}
+				},
+				{
+					"filename": "sprites/title/water-animation",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 896,
+						"h": 14
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 896,
+						"h": 14
+					},
+					"frame": {
+						"x": 1,
+						"y": 313,
+						"w": 896,
+						"h": 14
+					}
+				},
+				{
+					"filename": "sprites/global/airplane",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 740,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 740,
+						"h": 54
+					},
+					"frame": {
+						"x": 1,
+						"y": 329,
+						"w": 740,
+						"h": 54
+					}
+				},
+				{
+					"filename": "sprites/airport/prince",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 682,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 682,
+						"h": 30
+					},
+					"frame": {
+						"x": 743,
+						"y": 329,
+						"w": 682,
+						"h": 30
+					}
+				},
+				{
+					"filename": "sprites/airport/ring",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 630,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 630,
+						"h": 18
+					},
+					"frame": {
+						"x": 743,
+						"y": 361,
+						"w": 630,
+						"h": 18
+					}
+				},
+				{
+					"filename": "sprites/airport/hanging-clock-second-hand",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 600,
+						"h": 15
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 600,
+						"h": 15
+					},
+					"frame": {
+						"x": 1,
+						"y": 385,
+						"w": 600,
+						"h": 15
+					}
+				},
+				{
+					"filename": "sprites/airport/follow-me-car",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 576,
+						"h": 26
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 576,
+						"h": 26
+					},
+					"frame": {
+						"x": 1,
+						"y": 402,
+						"w": 576,
+						"h": 26
+					}
+				},
+				{
+					"filename": "images/airport/building-1-reflections",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 487,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 487,
+						"h": 46
+					},
+					"frame": {
+						"x": 743,
+						"y": 381,
+						"w": 487,
+						"h": 46
+					}
+				},
+				{
+					"filename": "images/tutorial/forest-background-1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 386,
+						"h": 73
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 386,
+						"h": 73
+					},
+					"frame": {
+						"x": 1257,
+						"y": 211,
+						"w": 386,
+						"h": 73
+					}
+				},
+				{
+					"filename": "images/tutorial/forest-background-2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 386,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 386,
+						"h": 80
+					},
+					"frame": {
+						"x": 1,
+						"y": 430,
+						"w": 386,
+						"h": 80
+					}
+				},
+				{
+					"filename": "images/atacama/ground",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 384,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 384,
+						"h": 65
+					},
+					"frame": {
+						"x": 389,
+						"y": 430,
+						"w": 384,
+						"h": 65
+					}
+				},
+				{
+					"filename": "images/atacama/water",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 384,
+						"h": 36
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 384,
+						"h": 36
+					},
+					"frame": {
+						"x": 1257,
+						"y": 286,
+						"w": 384,
+						"h": 36
+					}
+				},
+				{
+					"filename": "images/jurmo/background",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 384,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 384,
+						"h": 128
+					},
+					"frame": {
+						"x": 1232,
+						"y": 381,
+						"w": 384,
+						"h": 128
+					}
+				},
+				{
+					"filename": "images/airport/duty-free-shop",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 352,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 352,
+						"h": 62
+					},
+					"frame": {
+						"x": 775,
+						"y": 429,
+						"w": 352,
+						"h": 62
+					}
+				},
+				{
+					"filename": "images/airport/building-4-reflections",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 342,
+						"h": 25
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 342,
+						"h": 25
+					},
+					"frame": {
+						"x": 1,
+						"y": 512,
+						"w": 342,
+						"h": 25
+					}
+				},
+				{
+					"filename": "images/airport/airplane-front",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 321,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 321,
+						"h": 95
+					},
+					"frame": {
+						"x": 1,
+						"y": 539,
+						"w": 321,
+						"h": 95
+					}
+				},
+				{
+					"filename": "images/atacama/mountain",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 320,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 320,
+						"h": 84
+					},
+					"frame": {
+						"x": 324,
+						"y": 539,
+						"w": 320,
+						"h": 84
+					}
+				},
+				{
+					"filename": "sprites/credits/baby",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 320,
+						"h": 13
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 320,
+						"h": 13
+					},
+					"frame": {
+						"x": 1356,
+						"y": 195,
+						"w": 320,
+						"h": 13
+					}
+				},
+				{
+					"filename": "images/fifth-floor/window-reflections",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 305,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 305,
+						"h": 64
+					},
+					"frame": {
+						"x": 646,
+						"y": 511,
+						"w": 305,
+						"h": 64
+					}
+				},
+				{
+					"filename": "sprites/global/action",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 286,
+						"h": 11
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 286,
+						"h": 11
+					},
+					"frame": {
+						"x": 389,
+						"y": 497,
+						"w": 286,
+						"h": 11
+					}
+				},
+				{
+					"filename": "images/airport/window-reflections",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 279,
+						"h": 207
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 279,
+						"h": 207
+					},
+					"frame": {
+						"x": 1,
+						"y": 636,
+						"w": 279,
+						"h": 207
+					}
+				},
+				{
+					"filename": "images/airport/building-3-reflections",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 256,
+						"h": 25
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 256,
+						"h": 25
+					},
+					"frame": {
+						"x": 345,
+						"y": 512,
+						"w": 256,
+						"h": 25
+					}
+				},
+				{
+					"filename": "images/airport/escalator",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 254,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 254,
+						"h": 111
+					},
+					"frame": {
+						"x": 953,
+						"y": 493,
+						"w": 254,
+						"h": 111
+					}
+				},
+				{
+					"filename": "images/tutorial/tree-back-1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 8,
+						"h": 242
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 8,
+						"h": 242
+					},
+					"frame": {
+						"x": 1209,
+						"y": 429,
+						"w": 8,
+						"h": 242
+					}
+				},
+				{
+					"filename": "images/tutorial/tree-back-2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 9,
+						"h": 242
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 9,
+						"h": 242
+					},
+					"frame": {
+						"x": 1219,
+						"y": 429,
+						"w": 9,
+						"h": 242
+					}
+				},
+				{
+					"filename": "images/tutorial/tree-back-3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 242
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 242
+					},
+					"frame": {
+						"x": 646,
+						"y": 577,
+						"w": 10,
+						"h": 242
+					}
+				},
+				{
+					"filename": "images/tutorial/tree-back-4",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 242
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 34,
+						"h": 242
+					},
+					"frame": {
+						"x": 1678,
+						"y": 195,
+						"w": 34,
+						"h": 242
+					}
+				},
+				{
+					"filename": "images/tutorial/tree-back-5",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 8,
+						"h": 242
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 8,
+						"h": 242
+					},
+					"frame": {
+						"x": 1714,
+						"y": 195,
+						"w": 8,
+						"h": 242
+					}
+				},
+				{
+					"filename": "images/tutorial/tree-back-6",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 9,
+						"h": 242
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 9,
+						"h": 242
+					},
+					"frame": {
+						"x": 1645,
+						"y": 210,
+						"w": 9,
+						"h": 242
+					}
+				},
+				{
+					"filename": "images/tutorial/tree-back-7",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 242
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 242
+					},
+					"frame": {
+						"x": 1656,
+						"y": 210,
+						"w": 10,
+						"h": 242
+					}
+				},
+				{
+					"filename": "images/tutorial/tree-back-8",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 26,
+						"h": 242
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 26,
+						"h": 242
+					},
+					"frame": {
+						"x": 658,
+						"y": 577,
+						"w": 26,
+						"h": 242
+					}
+				},
+				{
+					"filename": "images/tutorial/tree-center-1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 242
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 242
+					},
+					"frame": {
+						"x": 1618,
+						"y": 324,
+						"w": 24,
+						"h": 242
+					}
+				},
+				{
+					"filename": "images/tutorial/tree-center-2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 242
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 242
+					},
+					"frame": {
+						"x": 686,
+						"y": 577,
+						"w": 25,
+						"h": 242
+					}
+				},
+				{
+					"filename": "images/tutorial/tree-center-3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 26,
+						"h": 242
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 26,
+						"h": 242
+					},
+					"frame": {
+						"x": 713,
+						"y": 577,
+						"w": 26,
+						"h": 242
+					}
+				},
+				{
+					"filename": "images/tutorial/tree-front-1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 50,
+						"h": 242
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 50,
+						"h": 242
+					},
+					"frame": {
+						"x": 1668,
+						"y": 439,
+						"w": 50,
+						"h": 242
+					}
+				},
+				{
+					"filename": "images/tutorial/tree-front-2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 242
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 242
+					},
+					"frame": {
+						"x": 1644,
+						"y": 454,
+						"w": 17,
+						"h": 242
+					}
+				},
+				{
+					"filename": "images/tutorial/tree-front-3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 242
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 242
+					},
+					"frame": {
+						"x": 741,
+						"y": 577,
+						"w": 21,
+						"h": 242
+					}
+				},
+				{
+					"filename": "images/airport/building-2-reflections",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 216,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 216,
+						"h": 21
+					},
+					"frame": {
+						"x": 282,
+						"y": 821,
+						"w": 216,
+						"h": 21
+					}
+				},
+				{
+					"filename": "images/airport/front-pillar",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 20,
+						"h": 208
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 20,
+						"h": 208
+					},
+					"frame": {
+						"x": 500,
+						"y": 625,
+						"w": 20,
+						"h": 208
+					}
+				},
+				{
+					"filename": "images/airport/pillar",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 5,
+						"h": 208
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 5,
+						"h": 208
+					},
+					"frame": {
+						"x": 1724,
+						"y": 195,
+						"w": 5,
+						"h": 208
+					}
+				},
+				{
+					"filename": "sprites/global/elevator-empty",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 204,
+						"h": 42
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 204,
+						"h": 42
+					},
+					"frame": {
+						"x": 282,
+						"y": 636,
+						"w": 204,
+						"h": 42
+					}
+				},
+				{
+					"filename": "sprites/global/elevator-full",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 204,
+						"h": 42
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 204,
+						"h": 42
+					},
+					"frame": {
+						"x": 282,
+						"y": 680,
+						"w": 204,
+						"h": 42
+					}
+				},
+				{
+					"filename": "sprites/lobby/barrier-gate",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 204,
+						"h": 13
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 204,
+						"h": 13
+					},
+					"frame": {
+						"x": 899,
+						"y": 313,
+						"w": 204,
+						"h": 13
+					}
+				},
+				{
+					"filename": "images/lobby/window-reflections",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 197,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 197,
+						"h": 111
+					},
+					"frame": {
+						"x": 764,
+						"y": 698,
+						"w": 197,
+						"h": 111
+					}
+				},
+				{
+					"filename": "images/airport/background",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 196,
+						"h": 9
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 196,
+						"h": 9
+					},
+					"frame": {
+						"x": 677,
+						"y": 497,
+						"w": 196,
+						"h": 9
+					}
+				},
+				{
+					"filename": "images/credits/background",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 192,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 192,
+						"h": 54
+					},
+					"frame": {
+						"x": 282,
+						"y": 724,
+						"w": 192,
+						"h": 54
+					}
+				},
+				{
+					"filename": "images/credits/foreground",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 192,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 192,
+						"h": 35
+					},
+					"frame": {
+						"x": 282,
+						"y": 780,
+						"w": 192,
+						"h": 35
+					}
+				},
+				{
+					"filename": "images/credits/lake",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 192,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 192,
+						"h": 63
+					},
+					"frame": {
+						"x": 764,
+						"y": 606,
+						"w": 192,
+						"h": 63
+					}
+				},
+				{
+					"filename": "images/home/background",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 192,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 192,
+						"h": 97
+					},
+					"frame": {
+						"x": 963,
+						"y": 698,
+						"w": 192,
+						"h": 97
+					}
+				},
+				{
+					"filename": "images/title/background",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 192,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 192,
+						"h": 54
+					},
+					"frame": {
+						"x": 958,
+						"y": 606,
+						"w": 192,
+						"h": 54
+					}
+				},
+				{
+					"filename": "images/title/foreground",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 192,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 192,
+						"h": 35
+					},
+					"frame": {
+						"x": 963,
+						"y": 797,
+						"w": 192,
+						"h": 35
+					}
+				},
+				{
+					"filename": "images/title/lake",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 192,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 192,
+						"h": 63
+					},
+					"frame": {
+						"x": 1157,
+						"y": 698,
+						"w": 192,
+						"h": 63
+					}
+				},
+				{
+					"filename": "images/title/reflection",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 192,
+						"h": 108
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 192,
+						"h": 108
+					},
+					"frame": {
+						"x": 1230,
+						"y": 568,
+						"w": 192,
+						"h": 108
+					}
+				},
+				{
+					"filename": "sprites/jurmo/water",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 192,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 192,
+						"h": 32
+					},
+					"frame": {
+						"x": 764,
+						"y": 811,
+						"w": 192,
+						"h": 32
+					}
+				},
+				{
+					"filename": "images/airport/building-4",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 191,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 191,
+						"h": 47
+					},
+					"frame": {
+						"x": 1424,
+						"y": 511,
+						"w": 191,
+						"h": 47
+					}
+				},
+				{
+					"filename": "images/airport/building-4-windows",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 190,
+						"h": 25
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 190,
+						"h": 25
+					},
+					"frame": {
+						"x": 764,
+						"y": 671,
+						"w": 190,
+						"h": 25
+					}
+				},
+				{
+					"filename": "sprites/jurmo/prince",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 190,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 190,
+						"h": 28
+					},
+					"frame": {
+						"x": 1230,
+						"y": 511,
+						"w": 190,
+						"h": 28
+					}
+				},
+				{
+					"filename": "sprites/global/water-dispenser",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 182,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 182,
+						"h": 23
+					},
+					"frame": {
+						"x": 956,
+						"y": 673,
+						"w": 182,
+						"h": 23
+					}
+				},
+				{
+					"filename": "images/lobby/picture-sign",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 176,
+						"h": 92
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 176,
+						"h": 92
+					},
+					"frame": {
+						"x": 1424,
+						"y": 560,
+						"w": 176,
+						"h": 92
+					}
+				},
+				{
+					"filename": "images/tutorial/wood-sign-large",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 176,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 176,
+						"h": 100
+					},
+					"frame": {
+						"x": 1424,
+						"y": 654,
+						"w": 176,
+						"h": 100
+					}
+				},
+				{
+					"filename": "images/airport/building-1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 174,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 174,
+						"h": 48
+					},
+					"frame": {
+						"x": 1427,
+						"y": 324,
+						"w": 174,
+						"h": 48
+					}
+				},
+				{
+					"filename": "images/airport/signs",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 174,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 174,
+						"h": 72
+					},
+					"frame": {
+						"x": 1157,
+						"y": 763,
+						"w": 174,
+						"h": 72
+					}
+				},
+				{
+					"filename": "sprites/global/water-animations",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 1
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 1
+					},
+					"frame": {
+						"x": 677,
+						"y": 508,
+						"w": 170,
+						"h": 1
+					}
+				},
+				{
+					"filename": "images/atacama/volcano",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 167,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 167,
+						"h": 35
+					},
+					"frame": {
+						"x": 1333,
+						"y": 763,
+						"w": 167,
+						"h": 35
+					}
+				},
+				{
+					"filename": "images/airport/building-1-windows",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 158,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 158,
+						"h": 46
+					},
+					"frame": {
+						"x": 1502,
+						"y": 756,
+						"w": 158,
+						"h": 46
+					}
+				},
+				{
+					"filename": "sprites/atacama/prince",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 144,
+						"h": 27
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 144,
+						"h": 27
+					},
+					"frame": {
+						"x": 764,
+						"y": 577,
+						"w": 144,
+						"h": 27
+					}
+				},
+				{
+					"filename": "images/global/sky-forest",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2,
+						"h": 128
+					},
+					"frame": {
+						"x": 1663,
+						"y": 454,
+						"w": 2,
+						"h": 128
+					}
+				},
+				{
+					"filename": "images/global/sky-jurmo",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2,
+						"h": 128
+					},
+					"frame": {
+						"x": 1663,
+						"y": 584,
+						"w": 2,
+						"h": 128
+					}
+				},
+				{
+					"filename": "images/global/sky-light",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2,
+						"h": 128
+					},
+					"frame": {
+						"x": 1662,
+						"y": 714,
+						"w": 2,
+						"h": 128
+					}
+				},
+				{
+					"filename": "images/global/sky-normal",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2,
+						"h": 128
+					},
+					"frame": {
+						"x": 1666,
+						"y": 714,
+						"w": 2,
+						"h": 128
+					}
+				},
+				{
+					"filename": "images/title/title",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 118,
+						"h": 26
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 118,
+						"h": 26
+					},
+					"frame": {
+						"x": 579,
+						"y": 402,
+						"w": 118,
+						"h": 26
+					}
+				},
+				{
+					"filename": "sprites/jurmo/alpaca",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 115,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 115,
+						"h": 28
+					},
+					"frame": {
+						"x": 522,
+						"y": 625,
+						"w": 115,
+						"h": 28
+					}
+				},
+				{
+					"filename": "images/logos/maus-ag",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 114,
+						"h": 77
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 114,
+						"h": 77
+					},
+					"frame": {
+						"x": 522,
+						"y": 655,
+						"w": 114,
+						"h": 77
+					}
+				},
+				{
+					"filename": "images/lobby/window-frames",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 112,
+						"h": 112
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 112,
+						"h": 112
+					},
+					"frame": {
+						"x": 1,
+						"y": 845,
+						"w": 112,
+						"h": 112
+					}
+				},
+				{
+					"filename": "images/title/description",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 9
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 9
+					},
+					"frame": {
+						"x": 324,
+						"y": 625,
+						"w": 110,
+						"h": 9
+					}
+				},
+				{
+					"filename": "images/airport/building-3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 109,
+						"h": 33
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 109,
+						"h": 33
+					},
+					"frame": {
+						"x": 522,
+						"y": 734,
+						"w": 109,
+						"h": 33
+					}
+				},
+				{
+					"filename": "images/global/cloud-2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 101,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 101,
+						"h": 50
+					},
+					"frame": {
+						"x": 522,
+						"y": 769,
+						"w": 101,
+						"h": 50
+					}
+				},
+				{
+					"filename": "sprites/ending/prince-kiss",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 30
+					},
+					"frame": {
+						"x": 1333,
+						"y": 800,
+						"w": 100,
+						"h": 30
+					}
+				},
+				{
+					"filename": "images/airport/building-3-windows",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 97,
+						"h": 25
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 97,
+						"h": 25
+					},
+					"frame": {
+						"x": 1230,
+						"y": 541,
+						"w": 97,
+						"h": 25
+					}
+				},
+				{
+					"filename": "images/airport/toilet-foreground",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 53
+					},
+					"frame": {
+						"x": 115,
+						"y": 845,
+						"w": 96,
+						"h": 53
+					}
+				},
+				{
+					"filename": "images/airport/tower",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 46,
+						"h": 94
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 46,
+						"h": 94
+					},
+					"frame": {
+						"x": 1670,
+						"y": 683,
+						"w": 46,
+						"h": 94
+					}
+				},
+				{
+					"filename": "sprites/home/rabbit",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 88,
+						"h": 7
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 88,
+						"h": 7
+					},
+					"frame": {
+						"x": 1140,
+						"y": 673,
+						"w": 88,
+						"h": 7
+					}
+				},
+				{
+					"filename": "images/global/cloud-1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 87,
+						"h": 49
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 87,
+						"h": 49
+					},
+					"frame": {
+						"x": 115,
+						"y": 900,
+						"w": 87,
+						"h": 49
+					}
+				},
+				{
+					"filename": "images/lobby/heater",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 83,
+						"h": 7
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 83,
+						"h": 7
+					},
+					"frame": {
+						"x": 958,
+						"y": 662,
+						"w": 83,
+						"h": 7
+					}
+				},
+				{
+					"filename": "images/airport/building-2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 81,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 81,
+						"h": 24
+					},
+					"frame": {
+						"x": 1329,
+						"y": 541,
+						"w": 81,
+						"h": 24
+					}
+				},
+				{
+					"filename": "fonts/pixel-operator-bold",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 79
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 79
+					},
+					"frame": {
+						"x": 213,
+						"y": 845,
+						"w": 80,
+						"h": 79
+					}
+				},
+				{
+					"filename": "fonts/pixel-operator-hb",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 80
+					},
+					"frame": {
+						"x": 295,
+						"y": 845,
+						"w": 80,
+						"h": 80
+					}
+				},
+				{
+					"filename": "images/airport/building-2-windows",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 21
+					},
+					"frame": {
+						"x": 1129,
+						"y": 429,
+						"w": 78,
+						"h": 21
+					}
+				},
+				{
+					"filename": "images/logos/ts-games",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 76,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 76,
+						"h": 76
+					},
+					"frame": {
+						"x": 377,
+						"y": 845,
+						"w": 76,
+						"h": 76
+					}
+				},
+				{
+					"filename": "images/title/start",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 76,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 76,
+						"h": 10
+					},
+					"frame": {
+						"x": 875,
+						"y": 493,
+						"w": 76,
+						"h": 10
+					}
+				},
+				{
+					"filename": "images/airport/hanging-clock",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 72
+					},
+					"frame": {
+						"x": 625,
+						"y": 769,
+						"w": 15,
+						"h": 72
+					}
+				},
+				{
+					"filename": "images/airport/hanging-exit-sign",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 72
+					},
+					"frame": {
+						"x": 476,
+						"y": 724,
+						"w": 21,
+						"h": 72
+					}
+				},
+				{
+					"filename": "sprites/fifth-floor/sitting-prince",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 70,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 70,
+						"h": 22
+					},
+					"frame": {
+						"x": 1351,
+						"y": 678,
+						"w": 70,
+						"h": 22
+					}
+				},
+				{
+					"filename": "images/airport/chairs",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 17
+					},
+					"frame": {
+						"x": 1230,
+						"y": 678,
+						"w": 68,
+						"h": 17
+					}
+				},
+				{
+					"filename": "fonts/pixel-operator-8",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 65,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 65,
+						"h": 65
+					},
+					"frame": {
+						"x": 1435,
+						"y": 800,
+						"w": 65,
+						"h": 65
+					}
+				},
+				{
+					"filename": "images/fifth-floor/partition-wall",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 64
+					},
+					"frame": {
+						"x": 1602,
+						"y": 560,
+						"w": 13,
+						"h": 64
+					}
+				},
+				{
+					"filename": "images/lobby/lamp-shadow-cropped",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 63
+					},
+					"frame": {
+						"x": 1152,
+						"y": 606,
+						"w": 29,
+						"h": 63
+					}
+				},
+				{
+					"filename": "images/lobby/lamp-shadow",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 36,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 36,
+						"h": 63
+					},
+					"frame": {
+						"x": 1602,
+						"y": 626,
+						"w": 36,
+						"h": 63
+					}
+				},
+				{
+					"filename": "images/airport/security-conveyor",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 62,
+						"h": 6
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 62,
+						"h": 6
+					},
+					"frame": {
+						"x": 436,
+						"y": 625,
+						"w": 62,
+						"h": 6
+					}
+				},
+				{
+					"filename": "images/lobby/water-dispenser-stack",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 58,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 58,
+						"h": 31
+					},
+					"frame": {
+						"x": 1602,
+						"y": 698,
+						"w": 58,
+						"h": 31
+					}
+				},
+				{
+					"filename": "images/fifth-floor/desks-computer-on",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 57,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 57,
+						"h": 17
+					},
+					"frame": {
+						"x": 1602,
+						"y": 731,
+						"w": 57,
+						"h": 17
+					}
+				},
+				{
+					"filename": "images/fifth-floor/desks-high",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 57,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 57,
+						"h": 22
+					},
+					"frame": {
+						"x": 1670,
+						"y": 779,
+						"w": 57,
+						"h": 22
+					}
+				},
+				{
+					"filename": "images/fifth-floor/desks",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 57,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 57,
+						"h": 17
+					},
+					"frame": {
+						"x": 1670,
+						"y": 803,
+						"w": 57,
+						"h": 17
+					}
+				},
+				{
+					"filename": "images/jurmo/tractor",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 57,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 57,
+						"h": 35
+					},
+					"frame": {
+						"x": 1670,
+						"y": 822,
+						"w": 57,
+						"h": 35
+					}
+				},
+				{
+					"filename": "images/lobby/reception-table",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 56,
+						"h": 11
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 56,
+						"h": 11
+					},
+					"frame": {
+						"x": 1105,
+						"y": 313,
+						"w": 56,
+						"h": 11
+					}
+				},
+				{
+					"filename": "sprites/home/sleeping-text-animation",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 56,
+						"h": 12
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 56,
+						"h": 12
+					},
+					"frame": {
+						"x": 1140,
+						"y": 682,
+						"w": 56,
+						"h": 12
+					}
+				},
+				{
+					"filename": "sprites/title/water-reflection",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 56,
+						"h": 1
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 56,
+						"h": 1
+					},
+					"frame": {
+						"x": 849,
+						"y": 508,
+						"w": 56,
+						"h": 1
+					}
+				},
+				{
+					"filename": "images/atacama/cloud-2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 27
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 27
+					},
+					"frame": {
+						"x": 204,
+						"y": 927,
+						"w": 55,
+						"h": 27
+					}
+				},
+				{
+					"filename": "images/airport/toilet-background-left",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 45,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 45,
+						"h": 53
+					},
+					"frame": {
+						"x": 1351,
+						"y": 702,
+						"w": 45,
+						"h": 53
+					}
+				},
+				{
+					"filename": "images/airport/toilet-background-right",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 45,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 45,
+						"h": 53
+					},
+					"frame": {
+						"x": 455,
+						"y": 867,
+						"w": 45,
+						"h": 53
+					}
+				},
+				{
+					"filename": "fonts/04b03",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 52,
+						"h": 52
+					},
+					"frame": {
+						"x": 502,
+						"y": 867,
+						"w": 52,
+						"h": 52
+					}
+				},
+				{
+					"filename": "images/atacama/cloud-1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 49,
+						"h": 14
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 49,
+						"h": 14
+					},
+					"frame": {
+						"x": 1300,
+						"y": 678,
+						"w": 49,
+						"h": 14
+					}
+				},
+				{
+					"filename": "images/airport/duty-free-cash-desk",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 18
+					},
+					"frame": {
+						"x": 1375,
+						"y": 361,
+						"w": 48,
+						"h": 18
+					}
+				},
+				{
+					"filename": "images/fifth-floor/kitchen",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 20
+					},
+					"frame": {
+						"x": 455,
+						"y": 845,
+						"w": 48,
+						"h": 20
+					}
+				},
+				{
+					"filename": "images/lobby/painting",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 45
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 45
+					},
+					"frame": {
+						"x": 556,
+						"y": 821,
+						"w": 48,
+						"h": 45
+					}
+				},
+				{
+					"filename": "sprites/jurmo/alpaca-spit",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 7
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 7
+					},
+					"frame": {
+						"x": 500,
+						"y": 835,
+						"w": 48,
+						"h": 7
+					}
+				},
+				{
+					"filename": "images/lobby/lamp",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 36,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 36,
+						"h": 47
+					},
+					"frame": {
+						"x": 556,
+						"y": 868,
+						"w": 36,
+						"h": 47
+					}
+				},
+				{
+					"filename": "images/airport/lost-and-found-stand",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 45,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 45,
+						"h": 24
+					},
+					"frame": {
+						"x": 261,
+						"y": 927,
+						"w": 45,
+						"h": 24
+					}
+				},
+				{
+					"filename": "images/lobby/ceo-picture",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 45
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 45
+					},
+					"frame": {
+						"x": 594,
+						"y": 868,
+						"w": 44,
+						"h": 45
+					}
+				},
+				{
+					"filename": "images/global/elevator-closed",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 42
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 34,
+						"h": 42
+					},
+					"frame": {
+						"x": 594,
+						"y": 915,
+						"w": 34,
+						"h": 42
+					}
+				},
+				{
+					"filename": "images/global/elevator-open",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 42
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 34,
+						"h": 42
+					},
+					"frame": {
+						"x": 630,
+						"y": 915,
+						"w": 34,
+						"h": 42
+					}
+				},
+				{
+					"filename": "images/airport/protester",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 33,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 33,
+						"h": 40
+					},
+					"frame": {
+						"x": 556,
+						"y": 917,
+						"w": 33,
+						"h": 40
+					}
+				},
+				{
+					"filename": "images/credits/phaser-dude",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 27,
+						"h": 40
+					},
+					"frame": {
+						"x": 699,
+						"y": 385,
+						"w": 27,
+						"h": 40
+					}
+				},
+				{
+					"filename": "images/tutorial/plant-2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 40,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 40,
+						"h": 21
+					},
+					"frame": {
+						"x": 505,
+						"y": 844,
+						"w": 40,
+						"h": 21
+					}
+				},
+				{
+					"filename": "images/fifth-floor/couch",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 36,
+						"h": 11
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 36,
+						"h": 11
+					},
+					"frame": {
+						"x": 1163,
+						"y": 313,
+						"w": 36,
+						"h": 11
+					}
+				},
+				{
+					"filename": "images/fifth-floor/lamp",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 36,
+						"h": 6
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 36,
+						"h": 6
+					},
+					"frame": {
+						"x": 115,
+						"y": 951,
+						"w": 36,
+						"h": 6
+					}
+				},
+				{
+					"filename": "images/lobby/barrier-wall",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 34,
+						"h": 30
+					},
+					"frame": {
+						"x": 308,
+						"y": 927,
+						"w": 34,
+						"h": 30
+					}
+				},
+				{
+					"filename": "images/fifth-floor/tv",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 33,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 33,
+						"h": 19
+					},
+					"frame": {
+						"x": 606,
+						"y": 845,
+						"w": 33,
+						"h": 19
+					}
+				},
+				{
+					"filename": "images/global/revolving-door-frame",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 33
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 33
+					},
+					"frame": {
+						"x": 377,
+						"y": 923,
+						"w": 29,
+						"h": 33
+					}
+				},
+				{
+					"filename": "images/global/elevator-cabin",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 32
+					},
+					"frame": {
+						"x": 1617,
+						"y": 568,
+						"w": 25,
+						"h": 32
+					}
+				},
+				{
+					"filename": "images/global/state-officer",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 31
+					},
+					"frame": {
+						"x": 488,
+						"y": 633,
+						"w": 10,
+						"h": 31
+					}
+				},
+				{
+					"filename": "sprites/jurmo/farmer",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 30,
+						"h": 23
+					},
+					"frame": {
+						"x": 344,
+						"y": 927,
+						"w": 30,
+						"h": 23
+					}
+				},
+				{
+					"filename": "images/fifth-floor/tall-man",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 5,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 5,
+						"h": 29
+					},
+					"frame": {
+						"x": 639,
+						"y": 625,
+						"w": 5,
+						"h": 29
+					}
+				},
+				{
+					"filename": "images/global/revolving-door-wings",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 29
+					},
+					"frame": {
+						"x": 1183,
+						"y": 606,
+						"w": 19,
+						"h": 29
+					}
+				},
+				{
+					"filename": "images/tutorial/gras-2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 10
+					},
+					"frame": {
+						"x": 1198,
+						"y": 682,
+						"w": 29,
+						"h": 10
+					}
+				},
+				{
+					"filename": "sprites/fifth-floor/standing-prince",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 27
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 27
+					},
+					"frame": {
+						"x": 603,
+						"y": 510,
+						"w": 18,
+						"h": 27
+					}
+				},
+				{
+					"filename": "images/airport/business-guy",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 26
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 26
+					},
+					"frame": {
+						"x": 488,
+						"y": 666,
+						"w": 10,
+						"h": 26
+					}
+				},
+				{
+					"filename": "images/fifth-floor/business-guy",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 26
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 26
+					},
+					"frame": {
+						"x": 1603,
+						"y": 324,
+						"w": 13,
+						"h": 26
+					}
+				},
+				{
+					"filename": "images/title/tobx",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 4
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 4
+					},
+					"frame": {
+						"x": 1602,
+						"y": 750,
+						"w": 25,
+						"h": 4
+					}
+				},
+				{
+					"filename": "images/global/plant",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 24
+					},
+					"frame": {
+						"x": 623,
+						"y": 510,
+						"w": 19,
+						"h": 24
+					}
+				},
+				{
+					"filename": "images/airport/security-scanner",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 23
+					},
+					"frame": {
+						"x": 910,
+						"y": 577,
+						"w": 18,
+						"h": 23
+					}
+				},
+				{
+					"filename": "images/tutorial/plant-1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 18
+					},
+					"frame": {
+						"x": 1398,
+						"y": 702,
+						"w": 23,
+						"h": 18
+					}
+				},
+				{
+					"filename": "images/airport/chubby-woman",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 22
+					},
+					"frame": {
+						"x": 728,
+						"y": 385,
+						"w": 13,
+						"h": 22
+					}
+				},
+				{
+					"filename": "images/fifth-floor/chubby-woman",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 22
+					},
+					"frame": {
+						"x": 606,
+						"y": 821,
+						"w": 13,
+						"h": 22
+					}
+				},
+				{
+					"filename": "images/tutorial/gras-4",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 22,
+						"h": 5
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 22,
+						"h": 5
+					},
+					"frame": {
+						"x": 476,
+						"y": 798,
+						"w": 22,
+						"h": 5
+					}
+				},
+				{
+					"filename": "images/tutorial/gras-1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 6
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 6
+					},
+					"frame": {
+						"x": 153,
+						"y": 951,
+						"w": 21,
+						"h": 6
+					}
+				},
+				{
+					"filename": "images/credits/couple",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 19
+					},
+					"frame": {
+						"x": 1617,
+						"y": 602,
+						"w": 17,
+						"h": 19
+					}
+				},
+				{
+					"filename": "sprites/fifth-floor/cake",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 7
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 7
+					},
+					"frame": {
+						"x": 1043,
+						"y": 662,
+						"w": 18,
+						"h": 7
+					}
+				},
+				{
+					"filename": "images/tutorial/stone-3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 17
+					},
+					"frame": {
+						"x": 930,
+						"y": 577,
+						"w": 17,
+						"h": 17
+					}
+				},
+				{
+					"filename": "images/fifth-floor/office-chair",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 9,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 9,
+						"h": 16
+					},
+					"frame": {
+						"x": 1720,
+						"y": 439,
+						"w": 9,
+						"h": 16
+					}
+				},
+				{
+					"filename": "images/home/sound-level-meter",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 4,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 4,
+						"h": 16
+					},
+					"frame": {
+						"x": 550,
+						"y": 821,
+						"w": 4,
+						"h": 16
+					}
+				},
+				{
+					"filename": "images/icons/background",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 1183,
+						"y": 637,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "images/icons/backpack",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 1183,
+						"y": 655,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "images/icons/candy",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 1398,
+						"y": 722,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "images/icons/coffee-mug",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 1398,
+						"y": 740,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "images/icons/phone",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 408,
+						"y": 923,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "images/icons/plastic-cup-empty",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 408,
+						"y": 941,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "images/icons/plastic-cup-full",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 426,
+						"y": 923,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "images/icons/rabbit",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 426,
+						"y": 941,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "images/icons/rain-boots",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 444,
+						"y": 923,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "images/icons/wine-bottle",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 444,
+						"y": 941,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "images/tutorial/stone-2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 11
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 11
+					},
+					"frame": {
+						"x": 522,
+						"y": 821,
+						"w": 16,
+						"h": 11
+					}
+				},
+				{
+					"filename": "images/tutorial/wood-sign",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 462,
+						"y": 922,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "images/tutorial/flower-2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 8
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 8
+					},
+					"frame": {
+						"x": 930,
+						"y": 596,
+						"w": 15,
+						"h": 8
+					}
+				},
+				{
+					"filename": "images/global/ventilation",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 13
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 13
+					},
+					"frame": {
+						"x": 1201,
+						"y": 313,
+						"w": 14,
+						"h": 13
+					}
+				},
+				{
+					"filename": "images/tutorial/phone",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 8,
+						"h": 14
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 8,
+						"h": 14
+					},
+					"frame": {
+						"x": 1668,
+						"y": 210,
+						"w": 8,
+						"h": 14
+					}
+				},
+				{
+					"filename": "images/airport/duty-free-saleswoman",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 13
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 13
+					},
+					"frame": {
+						"x": 1603,
+						"y": 352,
+						"w": 13,
+						"h": 13
+					}
+				},
+				{
+					"filename": "images/fifth-floor/coffee-machine",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 7,
+						"h": 13
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 7,
+						"h": 13
+					},
+					"frame": {
+						"x": 204,
+						"y": 900,
+						"w": 7,
+						"h": 13
+					}
+				},
+				{
+					"filename": "images/global/fire-extinguisher",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 7,
+						"h": 13
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 7,
+						"h": 13
+					},
+					"frame": {
+						"x": 547,
+						"y": 844,
+						"w": 7,
+						"h": 13
+					}
+				},
+				{
+					"filename": "images/tutorial/gras-3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 5
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 5
+					},
+					"frame": {
+						"x": 1602,
+						"y": 691,
+						"w": 13,
+						"h": 5
+					}
+				},
+				{
+					"filename": "images/tutorial/stone-1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 12,
+						"h": 9
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 12,
+						"h": 9
+					},
+					"frame": {
+						"x": 1063,
+						"y": 662,
+						"w": 12,
+						"h": 9
+					}
+				},
+				{
+					"filename": "images/airport/suitcase",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 11,
+						"h": 9
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 11,
+						"h": 9
+					},
+					"frame": {
+						"x": 633,
+						"y": 734,
+						"w": 11,
+						"h": 9
+					}
+				},
+				{
+					"filename": "images/global/exit-sign",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 11,
+						"h": 7
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 11,
+						"h": 7
+					},
+					"frame": {
+						"x": 1718,
+						"y": 683,
+						"w": 11,
+						"h": 7
+					}
+				},
+				{
+					"filename": "images/tutorial/flower-1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 11,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 11,
+						"h": 10
+					},
+					"frame": {
+						"x": 633,
+						"y": 745,
+						"w": 11,
+						"h": 10
+					}
+				},
+				{
+					"filename": "images/tutorial/wood-arrow-left",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 11,
+						"h": 7
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 11,
+						"h": 7
+					},
+					"frame": {
+						"x": 1718,
+						"y": 692,
+						"w": 11,
+						"h": 7
+					}
+				},
+				{
+					"filename": "images/tutorial/wood-arrow-right",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 11,
+						"h": 7
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 11,
+						"h": 7
+					},
+					"frame": {
+						"x": 633,
+						"y": 757,
+						"w": 11,
+						"h": 7
+					}
+				},
+				{
+					"filename": "images/global/elevator-floor-number-0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 7,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 7,
+						"h": 10
+					},
+					"frame": {
+						"x": 204,
+						"y": 915,
+						"w": 7,
+						"h": 10
+					}
+				},
+				{
+					"filename": "images/global/elevator-floor-number-5",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 7,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 7,
+						"h": 10
+					},
+					"frame": {
+						"x": 540,
+						"y": 821,
+						"w": 7,
+						"h": 10
+					}
+				},
+				{
+					"filename": "sprites/global/elevator-button",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 7
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 7
+					},
+					"frame": {
+						"x": 1412,
+						"y": 541,
+						"w": 10,
+						"h": 7
+					}
+				},
+				{
+					"filename": "images/lobby/laptop",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 9,
+						"h": 5
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 9,
+						"h": 5
+					},
+					"frame": {
+						"x": 1425,
+						"y": 374,
+						"w": 9,
+						"h": 5
+					}
+				},
+				{
+					"filename": "images/airport/escalator-stair",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 8,
+						"h": 8
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 8,
+						"h": 8
+					},
+					"frame": {
+						"x": 1668,
+						"y": 226,
+						"w": 8,
+						"h": 8
+					}
+				},
+				{
+					"filename": "images/airport/wine-bottle",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 8
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 8
+					},
+					"frame": {
+						"x": 958,
+						"y": 811,
+						"w": 3,
+						"h": 8
+					}
+				},
+				{
+					"filename": "images/global/lock",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 6,
+						"h": 8
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 6,
+						"h": 8
+					},
+					"frame": {
+						"x": 1636,
+						"y": 602,
+						"w": 6,
+						"h": 8
+					}
+				},
+				{
+					"filename": "images/global/elevator-button",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 5,
+						"h": 7
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 5,
+						"h": 7
+					},
+					"frame": {
+						"x": 1724,
+						"y": 405,
+						"w": 5,
+						"h": 7
+					}
+				},
+				{
+					"filename": "images/lobby/candies",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 7,
+						"h": 4
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 7,
+						"h": 4
+					},
+					"frame": {
+						"x": 907,
+						"y": 505,
+						"w": 7,
+						"h": 4
+					}
+				},
+				{
+					"filename": "images/global/backpack",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 6,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 6,
+						"h": 3
+					},
+					"frame": {
+						"x": 1201,
+						"y": 637,
+						"w": 6,
+						"h": 3
+					}
+				},
+				{
+					"filename": "images/tutorial/rain-boots",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 4,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 4,
+						"h": 3
+					},
+					"frame": {
+						"x": 1351,
+						"y": 758,
+						"w": 4,
+						"h": 3
+					}
+				},
+				{
+					"filename": "images/global/white-pixel",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 3,
+						"h": 3
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 1217,
+						"y": 324,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "images/credits/reflection",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1,
+						"h": 1
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1,
+						"h": 1
+					},
+					"frame": {
+						"x": 1667,
+						"y": 683,
+						"w": 1,
+						"h": 1
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://github.com/odrick/free-tex-packer-cli",
+		"version": "0.3.0"
+	}
+}

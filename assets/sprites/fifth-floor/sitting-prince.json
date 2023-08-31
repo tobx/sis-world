@@ -1,0 +1,78 @@
+{ "frames": [
+   {
+    "filename": "0",
+    "frame": { "x": 0, "y": 0, "w": 10, "h": 22 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 10, "h": 22 },
+    "sourceSize": { "w": 10, "h": 22 },
+    "duration": 5000
+   },
+   {
+    "filename": "1",
+    "frame": { "x": 10, "y": 0, "w": 10, "h": 22 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 10, "h": 22 },
+    "sourceSize": { "w": 10, "h": 22 },
+    "duration": 100
+   },
+   {
+    "filename": "2",
+    "frame": { "x": 20, "y": 0, "w": 10, "h": 22 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 10, "h": 22 },
+    "sourceSize": { "w": 10, "h": 22 },
+    "duration": 1000
+   },
+   {
+    "filename": "3",
+    "frame": { "x": 30, "y": 0, "w": 10, "h": 22 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 10, "h": 22 },
+    "sourceSize": { "w": 10, "h": 22 },
+    "duration": 1000
+   },
+   {
+    "filename": "4",
+    "frame": { "x": 40, "y": 0, "w": 10, "h": 22 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 10, "h": 22 },
+    "sourceSize": { "w": 10, "h": 22 },
+    "duration": 1000
+   },
+   {
+    "filename": "5",
+    "frame": { "x": 50, "y": 0, "w": 10, "h": 22 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 10, "h": 22 },
+    "sourceSize": { "w": 10, "h": 22 },
+    "duration": 1000
+   },
+   {
+    "filename": "6",
+    "frame": { "x": 60, "y": 0, "w": 10, "h": 22 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 10, "h": 22 },
+    "sourceSize": { "w": 10, "h": 22 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3-rc4-x64",
+  "image": "sitting-prince.png",
+  "format": "I8",
+  "size": { "w": 70, "h": 22 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "Work", "from": 0, "to": 0, "direction": "forward", "color": "#000000ff" },
+   { "name": "Move Eyes", "from": 1, "to": 6, "direction": "forward", "color": "#000000ff" }
+  ]
+ }
+}

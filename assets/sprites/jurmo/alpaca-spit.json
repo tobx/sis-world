@@ -1,0 +1,69 @@
+{ "frames": [
+   {
+    "filename": "0",
+    "frame": { "x": 0, "y": 0, "w": 8, "h": 7 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 7 },
+    "sourceSize": { "w": 8, "h": 7 },
+    "duration": 100
+   },
+   {
+    "filename": "1",
+    "frame": { "x": 8, "y": 0, "w": 8, "h": 7 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 7 },
+    "sourceSize": { "w": 8, "h": 7 },
+    "duration": 100
+   },
+   {
+    "filename": "2",
+    "frame": { "x": 16, "y": 0, "w": 8, "h": 7 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 7 },
+    "sourceSize": { "w": 8, "h": 7 },
+    "duration": 100
+   },
+   {
+    "filename": "3",
+    "frame": { "x": 24, "y": 0, "w": 8, "h": 7 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 7 },
+    "sourceSize": { "w": 8, "h": 7 },
+    "duration": 100
+   },
+   {
+    "filename": "4",
+    "frame": { "x": 32, "y": 0, "w": 8, "h": 7 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 7 },
+    "sourceSize": { "w": 8, "h": 7 },
+    "duration": 100
+   },
+   {
+    "filename": "5",
+    "frame": { "x": 40, "y": 0, "w": 8, "h": 7 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 7 },
+    "sourceSize": { "w": 8, "h": 7 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3-rc4-x64",
+  "image": "alpaca-spit.png",
+  "format": "I8",
+  "size": { "w": 48, "h": 7 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "Fly", "from": 0, "to": 0, "direction": "forward", "color": "#000000ff" },
+   { "name": "Splash", "from": 1, "to": 5, "direction": "forward", "color": "#000000ff" }
+  ]
+ }
+}

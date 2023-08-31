@@ -1,0 +1,569 @@
+{
+  "airport": {
+    "business-guy": {
+      "comments": [
+        "Hi, kennen wir uns?",
+        "Sind Sie auch Business-Kasper?",
+        "Frittenfett ist 'n Kaltgetränk gegen mich.",
+        "Ähm",
+        "*räusper*"
+      ],
+      "conversation": [
+        [
+          1,
+          "Der war ja nicht schlecht, aber es nimmt etwas überhand, meinst du nicht?"
+        ],
+        [2, "Ne, ich werde gerade erst warm."],
+        [1, ["Ah ja, na dann bin", "ich ja mal gespannt."]]
+      ]
+    },
+    "lost-and-found": {
+      "backpack-comment": "Ah, da ist sie wieder, die Last auf den Schultern.",
+      "backpack-is-visible": "Oh, dahinter steht mein Rucksack.",
+      "open-suitcase-monologue": [
+        "Ich schaue mal rein...",
+        "Wow, da sind 40.000 Euro drin!"
+      ],
+      "suitcase-comment": "Hm, hier ist nur ein Koffer.",
+      "take-backpack": "Ich packe das Geld am Besten in meinen Rucksack, da ist es sicher."
+    },
+    "player": {
+      "compliment-airport-monologue": [
+        "Der Flughafen. Großartig!",
+        "Man fühlt sich gleich so frei, als sei einem eine große Last von den Schultern gefallen."
+      ],
+      "do-not-look": "Nicht gucken!",
+      "forgotten-backpack-monologue": [
+        ["Aber..."],
+        ["Wo ist mein Rucksack?", "shout"],
+        ["Den muss ich wohl auf Toilette vergessen haben."]
+      ],
+      "search-toilet": "Hier ist nichts."
+    },
+    "prince": {
+      "propose": [
+        [2, "Wo fliegen wir hin?"],
+        [1, "", "look-right"],
+        [2, "", "smile"],
+        [1, "Du hast es geschafft!"],
+        [1, ["Wo warst du", "denn so lange?"]],
+        [2, "", "idle"],
+        [2, "Ich hatte noch was zu erledigen."],
+        [1, "Aha, was denn?"],
+        [2, "Nun..."]
+      ],
+      "wait": "WAAARTET!"
+    },
+    "saleswoman": {
+      "lacking-money-conversation-1": [
+        [2, "Möchten Sie kaufen?"],
+        [1, "Nein danke, ich habe kein Geld."],
+        [2, "Oh, das tut mir leid."],
+        [
+          1,
+          "Sagen Sie, haben Sie nicht vor kurzem noch in der Bank gearbeitet?"
+        ],
+        [2, "Ja, aber der Job hat mich nicht erfüllt."],
+        [2, "Ich hatte kaum etwas zu tun."],
+        [2, "Mein Chef meinte, ich sei überqualifiziert oder so."],
+        [1, "So so, na dann viel Erfolg im Flughafen."],
+        [2, "Danke."]
+      ],
+      "lacking-money-conversation-2": [
+        [2, "Möchten Sie kaufen?"],
+        [1, "Immer noch kein Geld."],
+        [2, "Oh, das tut mir leid."]
+      ],
+      "lost-backpack-conversation": [
+        [1, "Entschuldigen Sie?"],
+        [2, "Haben Sie Geld?"],
+        [1, "Nein, aber ich suche einen Rucksack."],
+        [2, "Sie dürfen Ihr Gepäck nicht unbeobachtet lassen."],
+        [1, "Ich weiß, ich weiß."],
+        [2, "Sonst schlägt es Alarm."],
+        [1, "Genau. Deshalb würde ich ihn gerne vorher finden."],
+        [2, "Oh, das ist schlau. Haben Sie es hinter den Toiletten versucht?"],
+        [2, "Dort ist eine Ablage für unbeaufsichtigte Gepäckstücke."],
+        [1, "Danke, ich mache mich gleich auf den Weg."]
+      ],
+      "not-my-money-conversation": [
+        [2, "Oh, Sie haben Geld, möchten Sie kaufen?"],
+        [1, "Das ist leider nicht mein Geld."],
+        [2, "Oh, das tut mir leid."]
+      ],
+      "buying-wine-conversation": [
+        [1, "Hallo, haben Sie etwas für 30.000 Euro?"],
+        [2, "Ja natürlich!"],
+        [
+          2,
+          "Im mittleren Preissegment haben wir eine große Auswahl an Weinen."
+        ],
+        [2, "Ich empfehle allerdings diesen hier für 40.000."],
+        [2, "Jede Traube hat hier bis zur Ernte einen persönlichen Betreuer."],
+        [1, "Perfekt, den nehme ich."]
+      ]
+    },
+    "state-officer": {
+      "exceeded-cash-limit-conversation": [
+        [2, "Sie dürfen leider nur maximal 10.000 Euro in Bar mitnehmen."],
+        [1, "Oh, dann muss ich das wohl schnell noch ausgeben."]
+      ],
+      "pepperspray-conversation": [
+        [2, "Irgendwelche Flüssigkeiten dabei?"],
+        [1, "Wein"],
+        [2, "Den können Sie nicht mitnehmen."],
+        [1, "Der ist aber aus dem Duty-free-Shop."],
+        [2, "Dann hätten Sie ihn vorher flugtauglich verpacken lassen müssen."],
+        [2, "Bitte schütten Sie ihn hier in den Abfluss."],
+        [1, "Na gut, schade."],
+        [2, "Und warum tragen Sie Pfefferspray bei sich?"],
+        [1, "Tue ich nicht."],
+        [2, "Da ist aber eins in Ihrem Rucksack."],
+        [1, "Ähm, ach so, im Rucksack..."],
+        [1, "Das ist nicht mein Rucksack."],
+        [2, "Wem soll der sonst sein?"],
+        [1, "Woher soll ich das wissen?"],
+        [2, "Hm, mal sehen..."],
+        [2, "...hier ist eine Geldbörse drin..."],
+        [2, "...und ein Ausweis und..."],
+        [2, "DA IST IHR FOTO DRAUF!"],
+        [1, "Ach deeeeer Rucksack."],
+        [1, "Ja, das ist meiner, vielen Dank."],
+        [2, "Warum da Pfefferspray drin ist, will ich wissen!"],
+        [1, "Zu meiner eigenen Sicherheit."],
+        [
+          2,
+          "Sie wissen aber schon, dass statistisch gesehen durch das tragen einer Waffe das Risiko,..."
+        ],
+        [
+          2,
+          "...in einer Gefahrensituation Opfer eines Angriffs auf Leib und oder Leben zu werden, signifikant steigt?"
+        ],
+        [1, "Wie bitte?"],
+        [2, "Egal. Unterschreiben Sie einfach hier."],
+        [1, "Worum geht's?"],
+        [
+          2,
+          "Verzicht auf Schadensersatzleistungen für sich selbst und oder anderen mit Waffen zugefügten Verletzungen."
+        ],
+        [2, ["Alles Standard-", "vertragsklauseln."]],
+        [1, "Natürlich."],
+        [2, "Viel Spaß auf dem Rollfeld!"],
+        [1, "Danke."]
+      ],
+      "conveyor-conversation": [
+        [2, "Gepäckstücke bitte auf's Band."],
+        [1, "Natürlich."]
+      ]
+    }
+  },
+  "atacama": {
+    "prince": {
+      "countdown": {
+        "one": "Eins",
+        "three": "Drei",
+        "two": "Zwei"
+      },
+      "jump-on-zero": "Ich zähle 3, 2, 1 und auf null kommt das Foto, ok?",
+      "jump-photo-request": "Ok, jetzt noch ein Sprungfoto!",
+      "look-into-camera": "Du musst schon in die Kamera gucken.",
+      "out-of-photo-position-comment": "Hey, wo willst du hin?",
+      "no-jump": "Jetzt noch ein Sprungfoto mit Sprung, ok?",
+      "perfect": "Perfekt.",
+      "small-talk": [
+        [1, "Wenn das die Maus sehen könnte..."],
+        [2, "Ja, Wahnsinn!"],
+        [
+          2,
+          "Sag mal, habe ich eigentlich erwähnt, dass ich mal bei der ESA war?"
+        ],
+        [1, "Nein, WOW, Erzähl!"],
+        [2, "Ok, aber vorher mache ich noch ein Foto von dir da oben."]
+      ],
+      "too-early": "Ein bisschen zu früh abgesprungen. Komm, nochmal!",
+      "too-late": "Ein Ticken zu spät abgesprungen. Noch ein Versuch, ok?"
+    }
+  },
+  "ending": {
+    "prince": {
+      "thank-real-life-prince": [
+        "Hey Echtes-Leben-Ich, ganz großes Kino!",
+        "Danke, dass du da so spontan eingesprungen bist."
+      ]
+    }
+  },
+  "fifth-floor": {
+    "business-guy": {
+      "ask-for-help": [
+        [1, "Weißt du, wie die Kaffeemaschine funktioniert?"],
+        [2, "Sorry, trinke nur von echten italienischen Barista-Maschinen."],
+        [1, "Warum überrascht mich das nicht?"],
+        [1, "Aber wo es neue Wasserbehälter gibt, weißt du schon, oder?"],
+        [2, "Natürlich, die wechsle ich täglich."],
+        [1, "Wirklich?"],
+        [2, "Nein."],
+        [2, "Aber frag mal im Büro. Da soll es Leute geben, die arbeiten."],
+        [1, "Arbeitest du nicht?"],
+        [2, "Ha Ha Ha, du musst noch viel lernen."]
+      ],
+      "comment": "Hey, habe ich erwähnt, dass ich Porsche fahre?",
+      "conversation": [
+        [1, "Hi"],
+        [2, "Mit der Bahn gekommen, ne?"],
+        [1, "Ja."],
+        [2, "Ich fahre Porsche!"],
+        [1, "Finde ich gut, dass du so offen damit umgehst."],
+        [2, "Klar. Willste mal mitfahren?"],
+        [1, "Das war ein Scherz."],
+        [2, "Ne, ist mein Ernst!"],
+        [1, "*stöhn*"],
+        [1, "Ich geh' mal an die Arbeit."]
+      ],
+      "greeting": "Hey"
+    },
+    "chubby-woman": {
+      "conversation": [
+        [1, "Oh, was ist der Anlass?"],
+        [2, ["Ich habe Geburtstag!", "Hi hi hi."]],
+        [1, "Na dann Herzlichen Glückwunsch!"],
+        [2, "Danke, hi hi hi."],
+        [2, "Wollen Sie ein Stück?"],
+        [1, "Gerne, aber Kaffee dazu wäre nett."],
+        [1, "Ist die Maschine kaputt?"],
+        [2, "Wasser nachgefüllt?"],
+        [1, "Ähm, vielleicht?"],
+        [2, "Hi hi hi."]
+      ],
+      "mentions-cake": ["Selbst gebacken.", "Hi hi hi."]
+    },
+    "coffee-machine": {
+      "is-broken": "Die scheint nicht zu funktionieren.",
+      "make-coffee-monologue": [
+        ["Mal sehen..."],
+        ["Das muss der Tank sein."],
+        ["So, jetzt Wasser rein."],
+        ["Uuund los..."],
+        ["Läuft!", "start-coffee-machine"],
+        ["Dum di dum di dum"],
+        ["*gähn*"],
+        ["Fertig!", "stop-coffee-machine"],
+        [
+          "Toll, das Wissen, wie man Kaffeemaschinen bedient, kann ich sicher irgendwann mal gut gebrauchen."
+        ]
+      ]
+    },
+    "sitting-prince": {
+      "conversation": [
+        [1, "Hallo, kann mir mal jemand helfen?"],
+        [2, ""],
+        [1, "Weiß jemand, wie die Kaffeemaschine funktioniert?"],
+        [2, ""],
+        [1, "ziemlich arroganter Typ", "think"],
+        [3, "Papierstau?"],
+        [1, "Ne, Kaffee."],
+        [3, "Gerne."],
+        [1, "???"]
+      ]
+    },
+    "standing-prince": {
+      "conversation": [
+        [1, "Oh, gibt es keinen Kuchen mehr?"],
+        [2, "", "turn-left"],
+        [2, "Welcher Kuchen?"],
+        [1, "Oh, es kann sprechen."],
+        [2, "Äh, *mampf*, kommt darauf an..."],
+        [2, "Manchmal brauche ich Informationen."],
+        [1, "Welcher Art?"],
+        [2, "Zum Beispiel, *mampf*, wo du den Kaffee her hast."],
+        [2, "Hat endlich jemand Wasser nachgefüllt?"],
+        [1, "Offensichtlich."],
+        [1, "Du hast die Zeit aber auch effektiv genutzt, oder?"],
+        [2, "Wie meinen?"],
+        [1, "Der Kuchen."],
+        [2, "Welcher Kuchen?"],
+        [1, "Genau."],
+        [1, "Ist das eigentlich anstrengend?"],
+        [2, "Was?"],
+        [1, "...so lange den Bauch einzuziehen?"],
+        [2, "Total!"],
+        [2, "", "let-loose"],
+        [1, "Das sieht entspannter aus."],
+        [2, "Absolut."],
+        [2, "Vorschlag zur Güte:"],
+        [2, "Wir essen ab jetzt jeden Tag zusammen Kuchen."],
+        [1, "Sie haben einen Deal."],
+        [2, "Wunderbar."],
+        [1, "Vielleicht ist der Typ doch gar nicht so doof.", "think"]
+      ]
+    },
+    "water-dispenser": {
+      "comments": [
+        "Erfrischend!",
+        "Schön kühl",
+        "Man soll ja viel trinken.",
+        "Boah, hab' ich 'nen Brand heute",
+        "Leer. Leider."
+      ]
+    }
+  },
+  "global": {
+    "controller": {
+      "gamepad": { "a": "A", "b": "B", "dpad": "Steuerkreuz" },
+      "keyboard": { "arrows": "Pfeiltasten", "space": "Leertaste" }
+    }
+  },
+  "home": {
+    "rabbit": {
+      "call": "Nicki!",
+      "caught": ["Potzblitz, das war knapp.", "Nicki ist in Sicherheit!"],
+      "escaped": [
+        "Oh nein! Dir ist Nicki entlaufen.",
+        "Ok, gaaanz ruhig, versuche es nochmal."
+      ]
+    },
+    "sound-level-meter-note": [
+      "Ok, ausnahmsweise bekommst du eine",
+      "kleine Hilfe: einen Schallpegelmesser."
+    ]
+  },
+  "jurmo": {
+    "alpaca": {
+      "greet": "Hallo Alpaka!"
+    },
+    "farmer": {
+      "conversation": [
+        [1, "Bitte entschuldigen Sie, aber ist das Ihr Alpaka?"],
+        [2, "", "idle"],
+        [2, "Guten Tag, ich bin eigentlich Ornithologe."],
+        [2, "Wussten Sie, dass in Jurmo die Zwergseeschwalbe brütet?"],
+        [2, "", "watch"],
+        [1, "Nein, aber erzählen Sie mehr!"],
+        [2, "", "idle"],
+        [2, "Nun, unser Vogelobservatorium wurde bereits 1962 gegründet."],
+        [2, ["Mit etwas Glück können", "Sie hier sogar Alpen-"]],
+        [2, ["Berg- oder Schwarzkehl-", "braunellen beobachten!"]],
+        [1, "Wow, die sieht man ja in Europa eher selten."],
+        [
+          2,
+          "Allerdings. Wir haben hier bereits über 300 Vogelarten gesichtet."
+        ],
+        [1, "...und ein Alpaka!"],
+        [2, "Ja, die fühlen sich wohl in unserem Klima."],
+        [1, "Scheint so, mein Freund wird gerade von einem verfolgt."],
+        [2, "", "watch"],
+        [2, "Sieht lustig aus."],
+        [1, "Ja, aber wird man das auch wieder los?"],
+        [2, "", "idle"],
+        [2, "Nein, aber es tut nichts. Es ist nur neugierig."],
+        [1, "Ok, danke. Das werde ich ihm mitteilen."],
+        [2, "Schönen Tag."],
+        [2, "", "watch"]
+      ]
+    },
+    "player": {
+      "laugh-at-prince": "Hi hi, wer zuletzt lacht...",
+      "oops": "Oops..."
+    },
+    "prince": {
+      "alpaca-approaches": "Oh nein!",
+      "alpaca-conversation": [
+        [1, "Was machst du denn da?"],
+        [2, "", "turn-to-player"],
+        [2, "Was meinst du?"],
+        [1, "Du hast doch Angst vor dem Alpaka."],
+        [2, "DU hast Angst vor dem Alpaka!"],
+        [2, "", "turn-to-alpaca"],
+        [1, "Du rennst aber, als ginge es um dein Leben."],
+        [2, "", "turn-to-player"],
+        [2, "DU rennst..."],
+        [2, "", "turn-to-alpaca"]
+      ],
+      "alpaca-tip": [
+        [1, "Und? Wie läuft's?"],
+        [2, "Gut, warum?"],
+        [1, "Nur so."],
+        [1, "Übrigens ist das Alpaka nur neugierig. Das tut nichts."],
+        [2, "Das hatte ich auch so eingeschätzt."],
+        [1, "Ach ja? Warum rennst du dann weg?"],
+        [2, "DU rennst weg!"],
+        [1, "Nun gut, wie du meinst."]
+      ],
+      "disgusting": "Iiihhh!",
+      "scream": "AAAaaahhh!!!"
+    }
+  },
+  "lobby": {
+    "barrier-gate": {
+      "badge-required": [
+        "Das Ding reagiert nicht.",
+        "Da steht \"Bitte Badge auflegen.\"",
+        "Wie komme ich nur an einen Badge?"
+      ],
+      "is-wrecked": "Jetzt ist mir das ganze Wasser über den Kartenleser gelaufen.",
+      "spill-water": "Hoppala..."
+    },
+    "ceo-picture-sign": {
+      "title": "CEO",
+      "description": "Jahr: 1989"
+    },
+    "elevator": {
+      "hrumph": "*räusper*",
+      "cough": "*hust*",
+      "greeting": "Yo!"
+    },
+    "painting-sign": {
+      "title": "Live!",
+      "description": "Wert: ca. 24.000.000 Euro"
+    },
+    "receptionists": {
+      "ask-for-water": [
+        [2, "Was ist denn jetzt noch?"],
+        [1, "Ich habe Durst."],
+        [2, "Wasserspender, dort drüben."],
+        [1, "Leer."],
+        [2, "Neue Lieferung müsste jederzeit kommen."],
+        [1, "Ich habe so einen trockenen Mund."],
+        [2, "Gütiger Himmel! Nehmen Sie sich ein Bonbon."],
+        [1, "Gern."]
+      ],
+      "conversation": [
+        [2, "Was ist denn das für ein Ton?"],
+        [2, "Sehen Sie nicht, dass wir arbeiten?"],
+        [1, "Bedauerlicherweise ist mir das wohl entgangen."],
+        [2, "Nun, was wollen Sie denn jetzt?"],
+        [1, "Rein."],
+        [2, "Wie?"],
+        [1, "Ich möchte gerne rein."],
+        [2, "Sagen Sie das doch gleich."],
+        [2, "Haben Sie einen Badge?"],
+        [1, "Vergessen."],
+        [2, "Ohne Badge kein Einlass!"],
+        [1, "Wenn ich einen hätte, würde ich ja nicht fragen."],
+        [2, "Ich kann Ihnen da leider nicht weiterhelfen."],
+        [2, "Schönen Tag."]
+      ],
+      "getting-attention": ["Entschuldigen Sie?", "Ähem...", "Hallo!"],
+      "getting-attention-again": "Entschuldigen Sie?",
+      "gossip": [
+        [1, "Auf jeden Fall war da dieser Kerl..."],
+        [2, "Und?"],
+        [1, "Naja..."],
+        [2, "Was naja?"],
+        [1, "Naja du weißt schon..."],
+        [2, "Echt?"],
+        [1, "Echt!"],
+        [2, "Erzähl!"],
+        [1, "Ok, also ich bin auf dieser Party..."],
+        [2, "Bei Paul?"],
+        [1, "Neee, bei Michael..."],
+        [2, "Deeer Michael?"],
+        [1, "Ja!"],
+        [2, "Meeega!"]
+      ],
+      "greet": ["Guten Tag."],
+      "nice-try": "Netter Versuch"
+    },
+    "water-dispenser": {
+      "empty": "Leer. Leider."
+    },
+    "water-dispenser-stack": {
+      "comment": "Die werden wohl gerade aufgefüllt.",
+      "cup-required": "Ich bräuchte einen Becher.",
+      "cup-filled": "Jetzt habe ich Wasser, aber ich muss erst noch mein Bonbon fertig lutschen."
+    }
+  },
+  "pause": {
+    "title": "PAUSE",
+    "text": "Gönn Dir!"
+  },
+  "preface": [
+    "Nicht schlecht.",
+    "Aber jeder kann Zielen nachjagen.",
+    "Der Weg ist das Ziel.",
+    "Der Weg ist das Ziel?",
+    "Falsch.",
+    "Wege geben Richtungen vor.",
+    "Richtungen sind langweilig.",
+    ["Die schönsten Momente des Lebens", "sind ohne Weg und Ziel."],
+    [
+      "Dieses Spiel handelt",
+      "von solchen Momenten",
+      "und vergisst dabei schamlos,",
+      "der Fantasie Grenzen zu setzen."
+    ],
+    "Viel Spaß!"
+  ],
+  "tutorial": {
+    "navigator-taken": [
+      "Herzlichen Glückwunsch! Du hast",
+      "den Navigator der Seele gefunden."
+    ],
+    "player": {
+      "found-boots": "Ach hier sind meine Gummistiefel.",
+      "putting-on-boots": "Pfützen, ich komme!",
+      "is-scared": "Hey, hast du das Schild nicht gelesen? Dreh um!",
+      "lets-turn-around": "Komm, lass' umdrehen...",
+      "noticed-smartphone": [
+        "Oops, was macht denn mein Handy hier?",
+        "Ich sollte wirklich besser darauf aufpassen."
+      ],
+      "safety-first": "Jaja, sicher ist sicher."
+    },
+    "signs": [
+      {
+        "title": "Sis World",
+        "pages": [
+          [
+            "Wilkommen in einer Welt",
+            "ungeahnter Möglichkeiten und",
+            "lebensverändernder Abenteuer.",
+            "",
+            "Reise durch Vergangenheit,",
+            "Gegenwart und Zukunft!"
+          ],
+          [
+            "Aber bedenke: Noch nie wurde",
+            "diese Grenze überschritten.",
+            "",
+            "Wenn du weiter gehst, gibt es",
+            "kein zurück mehr. Dies ist die",
+            "letzte und einzige Warnung!"
+          ]
+        ]
+      },
+      {
+        "title": "Warnung",
+        "pages": [["", "", "   BETRETEN AUF EIGENE GEFAHR!"]]
+      },
+      {
+        "title": "Einführung",
+        "pages": [
+          [
+            "Nun gut, du hast es so gewollt.",
+            "Jetzt hast du folgende Optionen:",
+            "",
+            "- Laufen: {directional}",
+            "- Springen: {jump}",
+            "- Aktion ausführen: {action}"
+          ],
+          [
+            "Eine Aktion ist verfügbar, wenn",
+            "der Buchstabe 'A' über deinem",
+            "Spieler erscheint.",
+            "",
+            "Das Wichtigste fehlt dir aber",
+            "noch: ein Ziel."
+          ],
+          [
+            "Finde den Navigator der Seele.",
+            "",
+            "Lass ihn tief in deine Seele",
+            "blicken und er zeigt dir den Weg",
+            "aus den Tiefen dieses Waldes",
+            "nach Hause."
+          ]
+        ]
+      }
+    ]
+  }
+}

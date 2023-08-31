@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="57" height="8" tilewidth="16" tileheight="16" infinite="0" parallaxoriginx="96" parallaxoriginy="54" nextlayerid="10" nextobjectid="155">
+ <editorsettings>
+  <export target="../../public/assets/tilemaps/fifth-floor.tmj" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="fifth-floor" tilewidth="16" tileheight="16" spacing="2" margin="1" tilecount="36" columns="6">
+  <image source="tilesets/fifth-floor.png" width="108" height="108"/>
+ </tileset>
+ <tileset firstgid="37" name="objects" tilewidth="438" tileheight="64" tilecount="27" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="7" height="10" source="images/global/elevator-floor-number-5.png"/>
+  </tile>
+  <tile id="1">
+   <image width="34" height="42" source="images/global/elevator-closed.png"/>
+  </tile>
+  <tile id="2">
+   <image width="25" height="32" source="images/global/elevator-cabin.png"/>
+  </tile>
+  <tile id="3">
+   <image width="34" height="42" source="images/global/elevator-open.png"/>
+  </tile>
+  <tile id="4">
+   <image width="5" height="7" source="images/global/elevator-button.png"/>
+  </tile>
+  <tile id="5">
+   <image width="36" height="6" source="images/fifth-floor/lamp.png"/>
+  </tile>
+  <tile id="6">
+   <image width="13" height="64" source="images/fifth-floor/partition-wall.png"/>
+  </tile>
+  <tile id="7">
+   <image width="36" height="11" source="images/fifth-floor/couch.png"/>
+  </tile>
+  <tile id="10">
+   <image width="13" height="26" source="images/fifth-floor/business-guy.png"/>
+  </tile>
+  <tile id="11">
+   <image width="7" height="13" source="images/global/fire-extinguisher.png"/>
+  </tile>
+  <tile id="12">
+   <image width="14" height="13" source="images/global/ventilation.png"/>
+  </tile>
+  <tile id="13">
+   <image width="11" height="7" source="images/global/exit-sign.png"/>
+  </tile>
+  <tile id="15">
+   <image width="57" height="17" source="images/fifth-floor/desks-computer-on.png"/>
+  </tile>
+  <tile id="16">
+   <image width="57" height="22" source="images/fifth-floor/desks-high.png"/>
+  </tile>
+  <tile id="17">
+   <image width="57" height="17" source="images/fifth-floor/desks.png"/>
+  </tile>
+  <tile id="18">
+   <image width="9" height="16" source="images/fifth-floor/office-chair.png"/>
+  </tile>
+  <tile id="19">
+   <image width="13" height="22" source="images/fifth-floor/chubby-woman.png"/>
+  </tile>
+  <tile id="20">
+   <image width="5" height="29" source="images/fifth-floor/tall-man.png"/>
+  </tile>
+  <tile id="21">
+   <image width="10" height="22" source="images/fifth-floor/sitting-prince.png"/>
+  </tile>
+  <tile id="22">
+   <image width="9" height="7" source="images/fifth-floor/cake.png"/>
+  </tile>
+  <tile id="23">
+   <image width="7" height="13" source="images/fifth-floor/coffee-machine.png"/>
+  </tile>
+  <tile id="24">
+   <image width="48" height="20" source="images/fifth-floor/kitchen.png"/>
+  </tile>
+  <tile id="25">
+   <image width="33" height="19" source="images/fifth-floor/tv.png"/>
+  </tile>
+  <tile id="26">
+   <image width="9" height="27" source="images/fifth-floor/standing-prince.png"/>
+  </tile>
+  <tile id="27">
+   <image width="305" height="64" source="images/fifth-floor/window-reflections.png"/>
+  </tile>
+  <tile id="28">
+   <image width="438" height="23" source="images/global/water-dispenser.png"/>
+  </tile>
+  <tile id="29">
+   <image width="19" height="24" source="images/global/plant.png"/>
+  </tile>
+ </tileset>
+ <objectgroup id="8" name="Window Reflections" parallaxx="0.5">
+  <properties>
+   <property name="depth" type="float" value="-2"/>
+   <property name="opacity" type="float" value="0.2"/>
+   <property name="parallax-factor-x" type="float" value="0.5"/>
+  </properties>
+  <object id="150" type="window-reflections" gid="64" x="218" y="112" width="305" height="64"/>
+ </objectgroup>
+ <layer id="2" name="Background" width="57" height="8">
+  <properties>
+   <property name="depth" type="float" value="-1"/>
+  </properties>
+  <data encoding="csv">
+0,0,8,0,24,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,21,0,20,28,26,28,26,20,28,26,28,26,20,28,26,28,26,20,28,26,28,26,20,20,20,0,0,
+0,0,8,0,19,23,25,25,25,25,25,25,23,25,25,25,25,25,23,25,25,25,25,23,25,25,25,25,25,22,21,0,20,29,27,29,27,20,29,27,29,27,20,29,27,29,27,20,29,27,29,27,20,20,20,0,0,
+0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,8,0,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,7,0,30,18,0,18,1,18,0,18,0,18,0,18,0,18,0,18,0,18,0,31,9,11,9,0,0,
+0,0,8,0,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,7,0,30,18,0,18,1,18,0,18,0,18,0,18,0,18,0,18,0,18,0,31,9,11,9,0,0,
+0,0,8,0,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,11,10,30,16,17,16,17,16,17,16,17,16,17,16,17,16,17,16,17,16,17,31,9,11,9,0,0,
+0,0,8,0,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,11,10,30,18,1,18,1,18,0,18,0,18,0,18,0,18,0,18,0,18,0,31,9,11,9,0,0,
+0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="Ground" width="57" height="8">
+  <properties>
+   <property name="collide" type="bool" value="true"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,
+0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,
+0,0,0,13,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,14,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,15,0,0,
+0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,
+0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,
+0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,
+0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,
+0,0,0,5,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,12,0,0
+</data>
+ </layer>
+ <objectgroup id="7" name="Objects 1"/>
+ <objectgroup id="3" name="Objects 2">
+  <object id="86" type="elevator-closed" gid="38" x="126" y="112" width="34" height="42"/>
+  <object id="87" type="elevator-floor-number-5" gid="37" x="169" y="88" width="7" height="10"/>
+  <object id="89" type="elevator-cabin" gid="39" x="190" y="112" width="25" height="32"/>
+  <object id="90" type="elevator-button" gid="41" x="170" y="101" width="5" height="7"/>
+  <object id="91" type="lamp" gid="42" x="121" y="54" width="36" height="6"/>
+  <object id="92" type="lamp" gid="42" x="189" y="54" width="36" height="6"/>
+  <object id="93" type="partition-wall" gid="43" x="279" y="112" width="13" height="64"/>
+  <object id="94" type="couch" gid="44" x="420" y="112" width="36" height="11"/>
+  <object id="98" type="fire-extinguisher" gid="48" x="465" y="104" width="7" height="13"/>
+  <object id="99" type="ventilation" gid="49" x="462" y="69" width="14" height="13"/>
+  <object id="100" type="exit-sign" gid="2147483698" x="492" y="91" width="11" height="7"/>
+  <object id="101" type="fire-extinguisher" gid="48" x="833" y="104" width="7" height="13"/>
+  <object id="102" type="ventilation" gid="49" x="830" y="69" width="14" height="13"/>
+  <object id="103" type="lamp" gid="42" x="559" y="54" width="36" height="6"/>
+  <object id="104" type="lamp" gid="42" x="625" y="54" width="36" height="6"/>
+  <object id="105" type="lamp" gid="42" x="691" y="54" width="36" height="6"/>
+  <object id="106" type="lamp" gid="42" x="757" y="54" width="36" height="6"/>
+  <object id="110" type="office-chair" gid="55" x="545" y="112" width="9" height="16"/>
+  <object id="113" type="office-chair" gid="55" x="574" y="112" width="9" height="16"/>
+  <object id="117" type="office-chair" gid="55" x="674" y="112" width="9" height="16"/>
+  <object id="125" type="office-chair" gid="55" x="747" y="112" width="9" height="16"/>
+  <object id="139" type="tv" gid="62" x="420" y="85" width="33" height="19"/>
+  <object id="140" type="kitchen" gid="61" x="321" y="112" width="48" height="20"/>
+  <object id="152" type="water-dispenser" gid="65" x="393" y="112" width="7" height="23"/>
+  <object id="153" type="plant" gid="66" x="619" y="112" width="19" height="24"/>
+  <object id="154" type="plant" gid="66" x="710" y="112" width="19" height="24"/>
+ </objectgroup>
+ <objectgroup id="4" name="Objects 3">
+  <object id="88" type="elevator-open" gid="40" x="185" y="112" width="34" height="42"/>
+  <object id="97" type="business-guy" gid="47" x="311" y="112" width="13" height="26"/>
+  <object id="118" type="desks-high" gid="53" x="644" y="112" width="57" height="22"/>
+  <object id="123" type="chubby-woman" gid="56" x="572" y="112" width="13" height="22"/>
+  <object id="124" type="tall-man" gid="57" x="651" y="112" width="5" height="29"/>
+  <object id="128" type="sitting-prince" gid="58" x="746" y="112" width="10" height="22"/>
+  <object id="141" type="coffee-machine" gid="60" x="358" y="101" width="7" height="13"/>
+ </objectgroup>
+ <objectgroup id="5" name="Objects 4">
+  <object id="121" type="desks-computer-on" gid="52" x="550" y="112" width="57" height="17"/>
+  <object id="127" type="desks" gid="54" x="738" y="112" width="57" height="17"/>
+ </objectgroup>
+ <objectgroup id="6" name="Objects 5">
+  <object id="122" type="office-chair" gid="55" x="595" y="112" width="9" height="16"/>
+  <object id="126" type="office-chair" gid="55" x="780" y="112" width="9" height="16"/>
+  <object id="137" type="cake" gid="59" x="562" y="102" width="9" height="7"/>
+  <object id="143" type="standing-prince" gid="63" x="534" y="112" width="9" height="27"/>
+ </objectgroup>
+ <objectgroup id="9" name="Zones">
+  <properties>
+   <property name="is-zone-layer" type="bool" value="true"/>
+  </properties>
+  <object id="148" type="elevator-zone" x="197" y="111" width="11" height="1"/>
+  <object id="149" type="elevator-zone" x="201" y="110" width="3" height="1"/>
+ </objectgroup>
+</map>

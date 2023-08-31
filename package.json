@@ -1,0 +1,30 @@
+{
+  "name": "sis-world",
+  "description": "a life-changing adventure",
+  "private": true,
+  "version": "1.0.0",
+  "homepage": "https://sis-world.tobx.de",
+  "author": {
+    "name": "Tobias Strobel",
+    "email": "code@tobx.de",
+    "url": "https://www.tobx.de"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "dev-servo-controller": "./servo-controller.py --port 1234 --cors http://localhost:5173 --servos ring=18",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host",
+    "find-deadcode": "ts-prune",
+    "validate": "tsc --noEmit"
+  },
+  "dependencies": {
+    "phaser": "^3.60.0"
+  },
+  "devDependencies": {
+    "free-tex-packer-cli": "^0.3.0",
+    "ts-prune": "^0.10.3",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9"
+  }
+}

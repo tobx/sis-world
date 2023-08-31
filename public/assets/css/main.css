@@ -1,0 +1,76 @@
+:root {
+  --color-black: #000;
+  --color-gray: #666;
+  --color-white: #fff;
+}
+
+html {
+  /* hide page scroolbar in Firefox */
+  scrollbar-width: none;
+}
+
+body {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  display: flex;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  margin: 0;
+
+  /* hide page scroolbar in Edge */
+  -ms-overflow-style: none;
+}
+
+/* hide page scroolbar in WebKit */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#sis-world {
+  margin: auto;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.game {
+  /* default fullscreen background color in Safari is white */
+  background-color: var(--color-black);
+
+  /* removes gap between `.game` and `.request-fullscreen` */
+  display: flex;
+}
+
+.game .loading {
+  color: var(--color-gray);
+
+  /* do not display loading text until this css file is active */
+  display: initial !important;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.request-fullscreen {
+  align-items: center;
+  color: var(--color-gray);
+  display: flex;
+  justify-content: center;
+  height: 2em;
+  padding: 0 0.5em;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media (hover: hover) {
+  .link:hover {
+    color: var(--color-white);
+  }
+}

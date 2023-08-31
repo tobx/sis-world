@@ -1,0 +1,48 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "build",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "npm: build",
+      "detail": "tsc && vite build"
+    },
+    {
+      "type": "npm",
+      "script": "dev",
+      "problemMatcher": [],
+      "label": "npm: dev",
+      "detail": "vite --host"
+    },
+    {
+      "type": "npm",
+      "script": "dev-servo-controller",
+      "problemMatcher": [],
+      "label": "npm: dev-servo-controller",
+      "detail": "./servo-controller.py --port 1234 --servos ring=25 --cors http://localhost:5173"
+    },
+    {
+      "type": "npm",
+      "script": "find-deadcode",
+      "problemMatcher": [],
+      "label": "npm: find-deadcode",
+      "detail": "ts-prune"
+    },
+    {
+      "type": "npm",
+      "script": "preview",
+      "problemMatcher": [],
+      "label": "npm: preview",
+      "detail": "vite preview"
+    },
+    {
+      "type": "npm",
+      "script": "validate",
+      "problemMatcher": [],
+      "label": "npm: validate",
+      "detail": "tsc --noEmit"
+    }
+  ]
+}
